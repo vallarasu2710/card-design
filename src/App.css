@@ -1,0 +1,54 @@
+
+.card{
+    background-color: white;
+    margin-top: 20px;
+    /* margin-bottom: 50px; */
+   height: 490px;
+    width: 300px;
+    border-radius: 20px;
+    /* border-color: 20px white; */
+}
+
+.card-body{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    justify-content: space-around;
+    background-color: rgb(46,170,251);
+    margin-top: 100px;
+    height: 530px;
+    width: 70%;
+    margin-left: 15%;
+}
+button{
+    width: 90%;
+   margin-left: 5%;
+   border-radius: 20px;
+   height: 40px;
+   background-color:  rgb(44, 123, 213);
+   border: none;
+   color: white;
+   font-weight: bolder;
+}
+button:hover{
+    width: 92%;height: 45px;
+    background-color: rgb(7, 101, 242);
+    color: aqua;
+}
+.span{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+  padding: 0px;
+  border-bottom: 3px solid whitesmoke;
+
+}
+p{
+    padding-left: 8px;
+}
+.hidden{
+    opacity: 0.5;
+}
